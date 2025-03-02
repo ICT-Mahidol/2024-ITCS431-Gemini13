@@ -2,6 +2,9 @@ Requirements (functional and non-functional) of the Gemini project
 
 
 creat by Zishu Wang I choose Create a Science Plan and Collect Astronomical Data in the Gemini Telescope Control System (GTCS)
+
+
+
 Functional Requirements：
 Create a Science Plan
  users must be able to access the 'Create Science Plan' page.

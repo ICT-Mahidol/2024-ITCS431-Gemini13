@@ -29,8 +29,9 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         with:
-          organization: YOUR_ORG_NAME
-          projectKey: YOUR_PROJECT_KEY
-          projectName: YOUR_PROJECT_NAME
+          organization: DDDIvip
+          projectKey: DDDIvip_1
+          projectName: DDDIvip_1
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+

@@ -1,4 +1,48 @@
-# Gemini13_D2_use case
+# Gemini-13 – Use Case Descriptions
 
-![Gemini13_D2_use case](Gemini13_D2_use case.png)
+## 1. Use Case: Login
+
+- **Actor**: Astronomer
+- **Description**: The astronomer logs into the Gemini system using valid credentials to access personalized features.
+- **Precondition**: The user must be registered in the system.
+- **Postcondition**: The user is logged in and redirected to the dashboard.
+- **Basic Flow**:
+  1. User navigates to login page.
+  2. User enters username and password.
+  3. System verifies credentials via authentication service.
+  4. If valid, user is logged in.
+- **Alternate Flow**:
+  - Invalid credentials: Show error message and allow retry.
+
+---
+
+## 2. Use Case: Create a Science Plan
+
+- **Actor**: Astronomer
+- **Description**: The astronomer creates a new science plan, providing details such as target, exposure time, and telescope settings.
+- **Precondition**: User must be logged in.
+- **Postcondition**: A draft science plan is created and stored in the system.
+- **Basic Flow**:
+  1. User selects "Create Plan" option.
+  2. User fills in science plan form (target, time, etc.).
+  3. User submits the form.
+  4. System validates and saves the plan.
+- **Alternate Flow**:
+  - Invalid input: Form shows validation errors and prevents submission.
+
+---
+
+## 3. Use Case: Submit Science Plan
+
+- **Actor**: Astronomer
+- **Description**: The astronomer submits a completed science plan for validation and scheduling.
+- **Precondition**: Science plan must be created and complete.
+- **Postcondition**: The plan is marked as submitted and moved to the review queue.
+- **Basic Flow**:
+  1. User navigates to their list of saved plans.
+  2. User selects a completed plan.
+  3. User clicks “Submit”.
+  4. System updates the status and queues the plan for validation.
+- **Alternate Flow**:
+  - Incomplete plan: Submission is disabled and a prompt is shown.
 

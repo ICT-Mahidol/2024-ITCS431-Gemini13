@@ -1,0 +1,9 @@
+com\example\gemini13\service\LoginService.class
+com\example\gemini13\controller\LoginController.class
+com\example\gemini13\repository\UserRepository.class
+com\example\gemini13\service\SciencePlanService.class
+com\example\gemini13\repository\SciencePlanRepository.class
+com\example\gemini13\controller\SciencePlanController.class
+com\example\gemini13\Gemini13Application.class
+com\example\gemini13\model\SciencePlan.class
+com\example\gemini13\model\User.class
